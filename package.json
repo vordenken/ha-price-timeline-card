@@ -6,6 +6,9 @@
   "scripts": {
     "build": "rollup -c rollup.config.mjs"
   },
+  "dependencies": {
+    "lit": "^3.0.0"
+  },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^25.0.0",
     "@rollup/plugin-json": "^6.0.0",
